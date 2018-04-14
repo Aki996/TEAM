@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Book Information</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="commentadded.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul id="first-nav">
+                <li class="first-list"><a href="index.html">Home </a></li>
+                <li class="first-list"><a href="support.html">Support</a></li>
+                <li class="first-list"><a href="sitemap.html">Sitemap</a></li>
+                <li class="first-list"><a href="privacypolicy.html">Privacy Policy</a></li>
+                <li class="first-list"><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <header>
+            <nav>
+                <ul id="second-nav">
+                    <li class="second-list"><a href="">About Us</a></li>
+                    <li class="second-list"><a href="">Products</a></li>
+                    <li class="second-list"><a href="">Partners</a></li>
+                    <li class="second-list"><a href="">Resources</a></li>
+                </ul>
+            </nav>
+            <div id="label">
+                <i class="fas fa-search"></i>
+                <label for="#">
+                    <input type="search" placeholder="search">
+                </label>
+            </div>
+           
+        </header>
+        <main>
+            <aside>
+                <i class="fas fa-user"></i>
+                <p id="usrinf">User information</p>
+                <div id="info">
+                    <p>First Name: A</p>
+                    <p>Last Name: A</p>
+                    <p>E-mail: a@gmail.com</p>
+                    <p>Phone Nubmer: 111111</p>
+                </div>
+                <div id="buttons">
+                    <button id="editprofile" type="submit"><a href="">Edit Profile</a></button>
+                    <button id="logout" type="submit"><a href="">Log Out</a></button>
+                </div> 
+                <div id="info2">
+                    <h5>Activity Information</h5>
+                    <p>Books to return &emsp; &emsp; &emsp; 6</p>
+                    <p>Donated books &emsp; &emsp; &emsp; &emsp;-</p>
+                </div>                  
+            </aside>
+            <section>
+                <h1>Book Information</h1>
+                <div id="php">
+                    <div id="bookinfo">
+                        <h4>PHP Programming</h4>
+                        <p>Author(s): Rosmus Lerdorf</p>
+                        <p>Year: 2002</p>
+                        <p>Language: English</p>
+                        <p>Pages: 540</p>
+                        <p>Categories: IT, Technical Literature</p>
+                    </div>
+                    <img src="img/PHP.png" alt="">
+                </div>
+                <fieldset>
+                    <legend>Leave your comment</legend>
+                    <input type="text">
+                    <button>Submit</button>
+                </fieldset>
+                <p>Other comments:</p>
+                <div class="comment">
+                        <p>16.02.2018, 19:48 @book_bb:</p>
+                        <p>I strongly recommend it to every PHP beginner.</p>
+                </div>
+                <div class="comment">
+                        <p>19.03.2018, 19:48 @book_bb:</p>
+                        <p>Great book, i Like it!</p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+</body>
+</html>
