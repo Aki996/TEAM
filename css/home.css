@@ -1,0 +1,33 @@
+section h1,h2 {
+    margin: 25px 0;
+    text-align: center;
+}
+
+section #empty {
+    width:80%;
+    height:200px;
+    border:2px solid black;
+    margin: 50px auto;
+}
+aside input {
+    width: 90%;
+    height:25px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+button {
+    width: 60px;
+    height:30px;
+    background-color: dodgerblue;
+    color:#fff;
+    font-weight: 700;
+    border:none;
+    box-shadow:3px 3px black;  
+}
+#signup {
+    background: #50a547;
+}

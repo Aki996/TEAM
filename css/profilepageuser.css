@@ -1,0 +1,141 @@
+aside {
+    position: relative;
+    border-left:none;
+    border-right: 1px solid black;
+}
+aside i {
+    font-style: normal;
+    font-size:40px;
+    width:50px;
+    line-height: 50px;
+    height: 50px;
+    border:2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top:0px;
+    left:165px;
+}
+aside p#usrinf {
+    margin-top:80px;
+}
+aside p#libr {
+    font-weight: 700;
+}
+aside div#info {
+    width:200px;
+    padding:10px;
+    border:2px solid black;
+    text-align: left;
+}
+#buttons {
+    width:250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons > * {
+    width:100px;
+    height:35px;
+    line-height: 35px;
+    border:2px solid black;
+    background: rgb(202, 202, 202);
+
+}
+aside button a {
+    text-decoration: none;
+    color:black;
+}
+aside #info2 p {
+    margin:10px;
+    text-align:left;
+}
+section  h1 {
+    text-align: center;
+}
+section i {
+    font-family: FontAwesome;
+    font-size:26px;
+    position: absolute;
+    top: 61px;
+    left: 13px;
+}
+section input {
+    margin:50px 0 30px;
+    height:50px;
+    width:300px;
+    border-radius: 250px;
+    font-size: 16px;
+    padding-left:45px;
+    border:2px solid black;
+}
+img {
+    display: block;
+    margin:0 auto;
+    width:100px;
+    height: 120px;
+}
+fieldset {
+    margin:0 auto 30px;
+    width:90%;
+    height:auto;
+    border:2px solid black;
+
+}
+legend {
+    margin-left:30px;
+    padding-left:5px;
+    padding-right:5px;
+}
+fieldset input {
+    margin:10px;
+    height:20px;
+    border-radius: 0px;
+    background:#eeeeee;
+}
+fieldset #title {
+    margin-left:40px;
+}
+fieldset #title input {
+    width:75%;
+}
+fieldset #author {
+    margin-left:20px;
+    display: inline-block;
+}
+fieldset #author input {
+    width:60%;
+}
+fieldset #year {
+    margin-left:20px;
+    display: inline-block;
+}
+fieldset #year input {
+    width:42%;
+}
+fieldset #comment {
+    display: inline-block;
+    vertical-align: top;
+    width:97%;
+
+}
+fieldset #comment textarea {
+    margin-left:8px;
+    border:2px solid black;
+    width:80%;
+    height: 100px;
+    background: #eeeeee;
+}
+button {
+}
+section button {
+    color:white;
+    font-weight: 700;
+    display: block;
+    margin: 20px auto;
+    width: 80px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    border:2px solid black;
+    background: #50a547;
+    box-shadow: 3px 3px black;
+}

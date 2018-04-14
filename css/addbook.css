@@ -1,0 +1,129 @@
+aside {
+    position: relative;
+    border-left:none;
+    border-right: 1px solid black;
+}
+aside i {
+    font-style: normal;
+    font-size:40px;
+    width:50px;
+    line-height: 50px;
+    height: 50px;
+    border:2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top:0px;
+    left:165px;
+}
+aside p#usrinf {
+    margin-top:80px;
+}
+aside p#libr {
+    font-weight: 700;
+}
+aside div#info {
+    width:200px;
+    padding:10px;
+    border:2px solid black;
+    text-align: left;
+}
+aside a {
+    color:black;
+    text-decoration: none;
+}
+#buttons {
+    width:250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons > * {
+    width:100px;
+    height:35px;
+    line-height: 35px;
+    border:2px solid black;
+    background: rgb(202, 202, 202);
+
+}
+section  h1 {
+    text-align: center;
+}
+section p {
+    margin-bottom:30px;
+}
+section > div {
+    margin-bottom:15px;
+}
+section input {
+    height: 30px;
+    width: 500px;
+    border:2px solid black;
+
+}
+section select {
+    border:2px solid black;
+
+}
+#browse button {
+    padding: 5px 10px;
+    background: white;
+    border:2px solid black;
+    box-shadow: 3px 3px black;
+}
+#browse input {
+    width:200px;
+    margin-left:25px;
+    padding-left:10px;
+    border-color: lightgrey;
+    color:lightgrey;
+}
+#title input {
+    margin-left:62px;
+
+}
+#author input {
+    margin-left:24px;
+}
+#publisher input {
+    margin-left:22px;
+}
+#Year input {
+    margin-left:59px;
+    width:113px;
+}
+#category1 select {
+    margin-left:13px;
+    height: 30px;
+}
+#category2 select {
+    margin-left:13px;
+    height: 30px;
+}
+#category1, #category2, #language, #pages {
+    display: inline-block;
+    width:40%;
+}
+#language  select{
+    margin-left:20px;
+    height: 30px;
+}
+#pages input {
+    margin-left:48px;
+    width:113px;
+}
+#available input {
+    margin-left:12px;
+    width:113px;
+}
+#buttons-anb {
+    float:right;
+    margin-right:150px;
+}
+#buttons-anb > button {
+    padding:5px 10px;
+    border:2px solid black;
+    margin:10px;
+}
+section a {
+    color:black;
+    text-decoration: none;
+}

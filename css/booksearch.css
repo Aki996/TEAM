@@ -1,0 +1,60 @@
+aside {
+    position: relative;
+    border-left:none;
+    border-right: 1px solid black;
+}
+aside i {
+    font-style: normal;
+    font-size:40px;
+    width:50px;
+    line-height: 50px;
+    height: 50px;
+    border:2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top:0px;
+    left:165px;
+}
+aside p#usrinf {
+    margin-top:80px;
+}
+aside p#libr {
+    font-weight: 700;
+}
+aside div#info {
+    width:200px;
+    padding:10px;
+    border:2px solid black;
+    text-align: left;
+}
+#buttons {
+    width:250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons > * {
+    width:100px;
+    height:35px;
+    line-height: 35px;
+    border:2px solid black;
+    background: rgb(202, 202, 202);
+
+}
+aside button a {
+    text-decoration: none;
+    color:black;
+}
+aside #info2 p {
+    margin:10px;
+    text-align:left;
+}
+section  h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin:0 auto;
+    width: 500px;
+    height: 230px;
+}
